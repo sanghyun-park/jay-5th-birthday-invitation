@@ -1,0 +1,35 @@
+.info {
+  background: var(--color-bg-alt);
+}
+
+.card {
+  background: var(--color-white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px 20px;
+  max-width: 360px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px dashed var(--color-bg-alt);
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.label {
+  flex: 0 0 72px;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.value {
+  flex: 1;
+  color: var(--color-text);
+}

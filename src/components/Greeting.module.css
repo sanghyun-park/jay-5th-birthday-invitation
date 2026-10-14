@@ -1,0 +1,17 @@
+.greeting {
+  background: var(--color-white);
+}
+
+.heart {
+  color: var(--color-primary);
+  font-size: 1.6rem;
+  margin-bottom: 4px;
+}
+
+.message {
+  font-size: 1.15rem;
+  color: var(--color-text-soft);
+  max-width: 340px;
+  margin: 0 auto;
+  white-space: pre-line;
+}

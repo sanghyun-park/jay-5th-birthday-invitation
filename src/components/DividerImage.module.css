@@ -1,0 +1,15 @@
+.divider {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+}
+
+.image {
+  position: absolute;
+  top: -32px;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 64px);
+  object-fit: cover;
+}

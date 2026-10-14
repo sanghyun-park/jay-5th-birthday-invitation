@@ -1,0 +1,33 @@
+.footer {
+  background: linear-gradient(160deg, var(--color-primary-dark), var(--color-primary));
+  color: var(--color-white);
+  text-align: center;
+  padding: 48px 24px 56px;
+}
+
+.thanks {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.shareBtn {
+  background: var(--color-white);
+  color: var(--color-primary-dark);
+  font-weight: 700;
+  padding: 14px 24px;
+  border-radius: 999px;
+  min-height: 44px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease;
+}
+
+.shareBtn:active {
+  transform: scale(0.96);
+}
+
+.sign {
+  margin-top: 24px;
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  opacity: 0.9;
+}

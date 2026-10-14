@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Gaegu:wght@400;700&display=swap');
+
+:root {
+  --color-primary: #ff8fab;
+  --color-primary-dark: #e05780;
+  --color-accent: #ffd166;
+  --color-bg: #fff7fa;
+  --color-bg-alt: #ffeef4;
+  --color-text: #3d2c36;
+  --color-text-soft: #7a6672;
+  --color-white: #ffffff;
+  --radius: 20px;
+  --shadow: 0 10px 30px rgba(224, 87, 128, 0.15);
+  --max-width: 480px;
+  --font-title: 'Jua', 'Gaegu', system-ui, sans-serif;
+  --font-body: 'Gaegu', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+#root {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  background: var(--color-bg);
+  min-height: 100vh;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.06);
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+/* 공통 섹션 */
+.section {
+  padding: 56px 24px;
+  text-align: center;
+}
+
+.section-title {
+  font-family: var(--font-title);
+  font-size: 1.6rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 20px;
+}
+
