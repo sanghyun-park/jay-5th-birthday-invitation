@@ -7,9 +7,9 @@
 
 .image {
   position: absolute;
-  top: -32px;
+  top: -200px;
   left: 0;
   width: 100%;
-  height: calc(100% + 64px);
+  height: calc(100% + 400px);
   object-fit: cover;
 }
